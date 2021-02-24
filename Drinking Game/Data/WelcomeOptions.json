@@ -1,0 +1,16 @@
+[
+    {
+        "Cathegory": "Drikkelek",
+        "Description": "I standard drikkelek har vi ulike spillemoduser som tilbyr de beste lekene for din situasjon."
+    },
+
+    {
+        "Cathegory": "Kategoriske drikkeleker",
+        "Description": "Kategorisk drikkelek tilbyr spesifikke drikkeleker som holder seg innenfor en lek."
+    },
+
+    {
+        "Cathegory": "Forslag til drikkeleker",
+        "Description": "Er du lei av å lese opp spørsmål fra telefonen? Her gir vi dere forslag til nye og ulike drikkeleker som kan gjennomføres med andre verktøy enn telefonen."
+    }
+]

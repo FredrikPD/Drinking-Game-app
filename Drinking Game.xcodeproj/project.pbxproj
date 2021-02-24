@@ -3,23 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4E04BA1A25E6769D00E4492F /* Drinking_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04BA1925E6769D00E4492F /* Drinking_GameApp.swift */; };
-		4E04BA1C25E6769D00E4492F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04BA1B25E6769D00E4492F /* ContentView.swift */; };
 		4E04BA1E25E6769E00E4492F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04BA1D25E6769E00E4492F /* Assets.xcassets */; };
 		4E04BA2125E6769E00E4492F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04BA2025E6769E00E4492F /* Preview Assets.xcassets */; };
+		4E04BA3525E6C6B700E4492F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04BA3425E6C6B700E4492F /* WelcomeView.swift */; };
+		4E04BA3925E6C87E00E4492F /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04BA3825E6C87E00E4492F /* IntroView.swift */; };
+		4E04BA4025E6ED8A00E4492F /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 4E04BA3F25E6ED8A00E4492F /* ActivityIndicatorView */; };
+		4E04BA4425E6F59A00E4492F /* WelcomeOptions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E04BA4325E6F59A00E4492F /* WelcomeOptions.json */; };
+		4E04BA4C25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04BA4B25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift */; };
+		4E7E430425E6FC1A0005B1CB /* WelcomeCathegories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430325E6FC1A0005B1CB /* WelcomeCathegories.swift */; };
+		4E7E430725E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430625E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift */; };
+		4E7E430B25E6FCD20005B1CB /* CathegoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430A25E6FCD20005B1CB /* CathegoryService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E04BA1625E6769D00E4492F /* Drinking Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drinking Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E04BA1925E6769D00E4492F /* Drinking_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinking_GameApp.swift; sourceTree = "<group>"; };
-		4E04BA1B25E6769D00E4492F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E04BA1D25E6769E00E4492F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E04BA2025E6769E00E4492F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E04BA2225E6769E00E4492F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E04BA3425E6C6B700E4492F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4E04BA3825E6C87E00E4492F /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		4E04BA4325E6F59A00E4492F /* WelcomeOptions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WelcomeOptions.json; sourceTree = "<group>"; };
+		4E04BA4B25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriskeDrikkelekerView.swift; sourceTree = "<group>"; };
+		4E7E430325E6FC1A0005B1CB /* WelcomeCathegories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCathegories.swift; sourceTree = "<group>"; };
+		4E7E430625E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCathegoriesModel.swift; sourceTree = "<group>"; };
+		4E7E430A25E6FCD20005B1CB /* CathegoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathegoryService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E04BA4025E6ED8A00E4492F /* ActivityIndicatorView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				4E04BA1925E6769D00E4492F /* Drinking_GameApp.swift */,
-				4E04BA1B25E6769D00E4492F /* ContentView.swift */,
+				4E04BA2A25E676E500E4492F /* Views */,
+				4E04BA2D25E6771D00E4492F /* ViewModels */,
+				4E04BA2925E676DF00E4492F /* Models */,
+				4E7E430925E6FCAD0005B1CB /* Services */,
+				4E04BA4225E6F56200E4492F /* Data */,
 				4E04BA1D25E6769E00E4492F /* Assets.xcassets */,
 				4E04BA2225E6769E00E4492F /* Info.plist */,
 				4E04BA1F25E6769E00E4492F /* Preview Content */,
@@ -67,6 +85,48 @@
 				4E04BA2025E6769E00E4492F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E04BA2925E676DF00E4492F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E7E430325E6FC1A0005B1CB /* WelcomeCathegories.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E04BA2A25E676E500E4492F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E04BA3825E6C87E00E4492F /* IntroView.swift */,
+				4E04BA3425E6C6B700E4492F /* WelcomeView.swift */,
+				4E04BA4B25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E04BA2D25E6771D00E4492F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E7E430625E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E04BA4225E6F56200E4492F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E04BA4325E6F59A00E4492F /* WelcomeOptions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4E7E430925E6FCAD0005B1CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E7E430A25E6FCD20005B1CB /* CathegoryService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +145,9 @@
 			dependencies = (
 			);
 			name = "Drinking Game";
+			packageProductDependencies = (
+				4E04BA3F25E6ED8A00E4492F /* ActivityIndicatorView */,
+			);
 			productName = "Drinking Game";
 			productReference = 4E04BA1625E6769D00E4492F /* Drinking Game.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 4E04BA0D25E6769D00E4492F;
+			packageReferences = (
+				4E04BA3E25E6ED8A00E4492F /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
 			productRefGroup = 4E04BA1725E6769D00E4492F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E04BA2125E6769E00E4492F /* Preview Assets.xcassets in Resources */,
+				4E04BA4425E6F59A00E4492F /* WelcomeOptions.json in Resources */,
 				4E04BA1E25E6769E00E4492F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E04BA1C25E6769D00E4492F /* ContentView.swift in Sources */,
+				4E04BA4C25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift in Sources */,
+				4E04BA3925E6C87E00E4492F /* IntroView.swift in Sources */,
+				4E7E430425E6FC1A0005B1CB /* WelcomeCathegories.swift in Sources */,
+				4E04BA3525E6C6B700E4492F /* WelcomeView.swift in Sources */,
 				4E04BA1A25E6769D00E4492F /* Drinking_GameApp.swift in Sources */,
+				4E7E430B25E6FCD20005B1CB /* CathegoryService.swift in Sources */,
+				4E7E430725E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E04BA3E25E6ED8A00E4492F /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E04BA3F25E6ED8A00E4492F /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E04BA3E25E6ED8A00E4492F /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E04BA0E25E6769D00E4492F /* Project object */;
 }
