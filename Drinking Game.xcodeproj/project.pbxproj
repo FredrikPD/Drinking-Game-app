@@ -18,6 +18,9 @@
 		4E7E430425E6FC1A0005B1CB /* WelcomeCathegories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430325E6FC1A0005B1CB /* WelcomeCathegories.swift */; };
 		4E7E430725E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430625E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift */; };
 		4E7E430B25E6FCD20005B1CB /* CathegoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E430A25E6FCD20005B1CB /* CathegoryService.swift */; };
+		4E7E431225E7AD610005B1CB /* DrikkelekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E431125E7AD610005B1CB /* DrikkelekView.swift */; };
+		4E7E431525E7AD750005B1CB /* ForslagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E431425E7AD750005B1CB /* ForslagView.swift */; };
+		4E7E431925E7F9970005B1CB /* WelcomeViewVol2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E431825E7F9970005B1CB /* WelcomeViewVol2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		4E7E430325E6FC1A0005B1CB /* WelcomeCathegories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCathegories.swift; sourceTree = "<group>"; };
 		4E7E430625E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCathegoriesModel.swift; sourceTree = "<group>"; };
 		4E7E430A25E6FCD20005B1CB /* CathegoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathegoryService.swift; sourceTree = "<group>"; };
+		4E7E431125E7AD610005B1CB /* DrikkelekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrikkelekView.swift; sourceTree = "<group>"; };
+		4E7E431425E7AD750005B1CB /* ForslagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForslagView.swift; sourceTree = "<group>"; };
+		4E7E431825E7F9970005B1CB /* WelcomeViewVol2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewVol2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			children = (
 				4E04BA3825E6C87E00E4492F /* IntroView.swift */,
 				4E04BA3425E6C6B700E4492F /* WelcomeView.swift */,
+				4E7E431125E7AD610005B1CB /* DrikkelekView.swift */,
 				4E04BA4B25E6F6B600E4492F /* KategoriskeDrikkelekerView.swift */,
+				4E7E431425E7AD750005B1CB /* ForslagView.swift */,
+				4E7E431825E7F9970005B1CB /* WelcomeViewVol2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,9 +218,12 @@
 				4E04BA3925E6C87E00E4492F /* IntroView.swift in Sources */,
 				4E7E430425E6FC1A0005B1CB /* WelcomeCathegories.swift in Sources */,
 				4E04BA3525E6C6B700E4492F /* WelcomeView.swift in Sources */,
+				4E7E431525E7AD750005B1CB /* ForslagView.swift in Sources */,
 				4E04BA1A25E6769D00E4492F /* Drinking_GameApp.swift in Sources */,
 				4E7E430B25E6FCD20005B1CB /* CathegoryService.swift in Sources */,
 				4E7E430725E6FC7A0005B1CB /* WelcomeCathegoriesModel.swift in Sources */,
+				4E7E431925E7F9970005B1CB /* WelcomeViewVol2.swift in Sources */,
+				4E7E431225E7AD610005B1CB /* DrikkelekView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

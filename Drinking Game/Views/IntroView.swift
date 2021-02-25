@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import ActivityIndicatorView
+//import ActivityIndicatorView
 
 struct IntroView: View {
     
@@ -16,25 +16,26 @@ struct IntroView: View {
     
     var body: some View {
         ZStack {
-            WelcomeView()
+            //WelcomeView()
             
             ZStack {
-                Color("Color")
+                Color.orange
                 
                 VStack {
-                    Image("twitterbig")
+                    Image("Logo")
                         .resizable()
                         .renderingMode(.original)
                         .aspectRatio(contentMode: animate ? .fill :  .fit)
                         .frame(width: animate ? nil : 85, height: animate ? nil : 85)
+                        .cornerRadius(15)
                         
                         .scaleEffect(animate ? 3 : 1)
                         
                         .frame(width: UIScreen.main.bounds.width)
                     
-                    ActivityIndicatorView(isVisible: $loading, type: .rotatingDots)
-                        .frame(width: 100, height: 100, alignment: .center)
-                        .foregroundColor(.white)
+                    //ActivityIndicatorView(isVisible: $loading, type: .rotatingDots)
+                        //.frame(width: 100, height: 100, alignment: .center)
+                        //.foregroundColor(.white)
                 }
             }
             .ignoresSafeArea(.all, edges: .all)
@@ -44,7 +45,7 @@ struct IntroView: View {
     }
     
     func animateSplash() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.25) {
             
             withAnimation(Animation.easeOut(duration: 0.55)) {
                 animate.toggle()

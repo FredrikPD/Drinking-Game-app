@@ -12,4 +12,5 @@ class Cathegory: Identifiable, Decodable {
     var id:UUID?
     var Cathegory:String
     var Description:String
+    var View:String
 }
